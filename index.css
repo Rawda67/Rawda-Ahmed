@@ -431,3 +431,32 @@ h1{
 .contact p:hover{
     color: #FF85B3;
 }
+@media (max-width: 500px) {
+    .header{
+        position:relative;
+    }
+    #education{
+        margin-top: 180px;
+    }
+    .btn, .btn2, .btn3, .btn4  {
+        width: 100%;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .service-item, .edu1, .courseName, .courseCompany, .startDate, .endDate, .location, .skill, .project, .contact {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+    .Subjects .subject, .skills .skill, .projects .project, .contacts .contact {
+        min-width: 100%;
+    }
+    .skills,.courses{
+        margin: 10px;
+    }
+    .btn2{
+        width: 200px;
+    }
+    ul{
+        gap: 1.3rem;
+    }
+}
